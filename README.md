@@ -16,6 +16,9 @@ CSRFPoC is a simple Python script that generates a CSRF Proof of Concept (PoC) H
 1. Clone this repository or download the script `csrf_poc_generator.py`.
 2. Use the following command to run the script:
 
+```bash
+python csrf_poc_generator.py -r <path_to_request_file> -o <path_to_output_file>
+```
 
 Replace `<path_to_request_file>` with the path to your request file, and `<path_to_output_file>` with the desired path for the generated HTML PoC file.
 
@@ -25,7 +28,6 @@ Replace `<path_to_request_file>` with the path to your request file, and `<path_
 - `-o`, `--output`: Path to the output HTML PoC file (default: `PoC.html`)
 
 ## Example
-
 
 This command generates a CSRF PoC HTML file named `CSRF_PoC.html` using the request file `change_email.req`.
 
