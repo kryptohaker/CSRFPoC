@@ -5,9 +5,9 @@ from urllib.parse import unquote
 banner = '''
 ###############################################################
 #                                                             #
-#              CSRFPoC - CSRF PoC Generator                   #
+#              CSRFPoC - A Simple CSRF PoC Generator          #
 #                                                             #
-#                Created by: Kryptohaker                      #
+#                    Created by: Kryptohaker                  #
 #                                                             #
 ###############################################################
 '''
